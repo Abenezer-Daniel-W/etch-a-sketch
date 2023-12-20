@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: monospace; 
+    height: 100vh;
+}
+header{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* border: 3px red solid; */
+    color: white;
+    background-color: #242f5c;
+}
+.main{
+    display: flex;
+    /* border: 3px red solid; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.controls{
+    padding-top: 10px;
+    display: flex; 
+    font-size: 24px;
+    margin: 15px;
+
+}
+.size button{
+    font-size: 24px;
+    border-radius: 10px;
+    margin: 5px;
+    border: 2px white solid;
+    background-color: #263fa3;
+    color: white; 
+}
+.mode button{
+    font-size: 24px;
+    border-radius: 10px;
+    margin: 5px;
+    border: 2px white solid;
+    background-color:#b53f43;
+    color: white; 
+}
+.canvas{
+    display: flex;
+    flex-direction: column;
+    border: 3px #242f5c solid;
+    height: 500px;
+    width: 500px;
+}
